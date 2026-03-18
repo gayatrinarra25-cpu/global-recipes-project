@@ -1,0 +1,38 @@
+.search-results-page {
+  padding-bottom: var(--spacing-xl);
+}
+
+.search-header-section {
+  padding: var(--spacing-lg) 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), transparent);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.search-box-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.results-summary h2 {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.no-results-container {
+  border-radius: var(--radius-lg);
+  min-height: 400px;
+  text-align: center;
+}
+
+.p-xl {
+  padding: var(--spacing-xl);
+}
+
+.mb-md {
+  margin-bottom: var(--spacing-md);
+}
+
+.text-text-light {
+  color: var(--color-text-light);
+}
